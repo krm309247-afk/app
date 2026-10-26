@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cont{
+  min-height: 100vh;
+  background-color: red;
+}
+
+ul{
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+}
+ul li{
+  list-style: none;
+
+}
+
+.App{
+  
+  /* background-color: chartreuse; */
+  padding: 12px;
+  display: flex;
+  justify-content:center ;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.d{
+  background-color: oklch(82.8% 0.189 84.429);
+  width: 220px;
+  height: 280px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 8px;
+
+}
+.d  h2{
+  font-weight: bold;
+  background: linear-gradient(oklch(58.8% 0.158 241.966),oklch(59.1% 0.293 322.896),oklch(58.6% 0.253 17.585));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.d img{
+  width: 80%;
+  border-radius: 6px;
+  
+}
+span{
+  align-self: self-end;
+  margin-right: 28px;
+  font-weight: bold;
+  background: linear-gradient(oklch(74.6% 0.16 232.661),oklch(45.7% 0.24 277.023),oklch(58.6% 0.253 17.585));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  
+}
+.bt{
+  cursor: pointer;
+  background: linear-gradient(oklch(62.7% 0.194 149.214),oklch(53.2% 0.157 131.589),oklch(59.6% 0.145 163.225));
+  width: 80%;
+  padding: 6px;
+  border-radius: 6px;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: 0.4s;
+}
+.bt:hover{
+  background: linear-gradient(oklch(61.31% 0.17709 147.714),oklch(47.841% 0.12894 131.598),oklch(56.393% 0.12076 162.541));
+  
+}
+
+  
+  .d{
+    width: 200px;
+    
+    
+  }
+}
+@media (min-width: 768px){
+
+}
+@media (min-width: 1024px){
+
+}
